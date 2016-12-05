@@ -55,13 +55,45 @@
 			isa = PBXGroup;
 			children = (
 				944DD2DB1DF4A4860039E3ED /* AppDelegate.swift */,
-				944DD2DD1DF4A4860039E3ED /* ViewController.swift */,
-				944DD2DF1DF4A4860039E3ED /* Main.storyboard */,
-				944DD2E21DF4A4860039E3ED /* Assets.xcassets */,
-				944DD2E41DF4A4860039E3ED /* LaunchScreen.storyboard */,
-				944DD2E71DF4A4860039E3ED /* Info.plist */,
+				944DD2ED1DF4A4910039E3ED /* Model */,
+				944DD2EE1DF4A4980039E3ED /* View */,
+				944DD2EF1DF4A49C0039E3ED /* Controller */,
+				944DD2F01DF4A4A30039E3ED /* Inculdes */,
 			);
 			path = WorldTrotter;
+			sourceTree = "<group>";
+		};
+		944DD2ED1DF4A4910039E3ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		944DD2EE1DF4A4980039E3ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				944DD2DF1DF4A4860039E3ED /* Main.storyboard */,
+				944DD2E41DF4A4860039E3ED /* LaunchScreen.storyboard */,
+				944DD2DD1DF4A4860039E3ED /* ViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		944DD2EF1DF4A49C0039E3ED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		944DD2F01DF4A4A30039E3ED /* Inculdes */ = {
+			isa = PBXGroup;
+			children = (
+				944DD2E21DF4A4860039E3ED /* Assets.xcassets */,
+				944DD2E71DF4A4860039E3ED /* Info.plist */,
+			);
+			name = Inculdes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
