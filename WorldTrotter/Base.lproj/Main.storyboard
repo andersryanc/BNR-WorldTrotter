@@ -89,6 +89,16 @@
             </objects>
             <point key="canvasLocation" x="1791" y="-1075"/>
         </scene>
+        <!--Web-->
+        <scene sceneID="ZG4-B9-b4p">
+            <objects>
+                <viewController id="hdu-Jj-Fg9" customClass="WebViewController" customModule="WorldTrotter" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Web" image="BnrIcon" id="htC-ml-tUn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RNj-ln-gIt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2550" y="-675"/>
+        </scene>
         <!--Map-->
         <scene sceneID="EBO-ov-lo8">
             <objects>
@@ -97,7 +107,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aHP-hJ-s7T" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1791" y="-386"/>
+            <point key="canvasLocation" x="1790" y="-281"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="CkN-zn-Dvr">
@@ -112,6 +122,7 @@
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="t8X-5s-M55"/>
                         <segue destination="hiI-oP-xIu" kind="relationship" relationship="viewControllers" id="xwb-im-ify"/>
+                        <segue destination="hdu-Jj-Fg9" kind="relationship" relationship="viewControllers" id="RVe-iC-gvX"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VRq-4F-MjU" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -120,6 +131,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="BnrIcon" width="48" height="32"/>
         <image name="ConvertIcon" width="48" height="32"/>
         <image name="MapIcon" width="48" height="32"/>
     </resources>

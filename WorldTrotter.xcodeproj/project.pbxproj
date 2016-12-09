@@ -13,6 +13,7 @@
 		944DD2E31DF4A4860039E3ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 944DD2E21DF4A4860039E3ED /* Assets.xcassets */; };
 		944DD2E61DF4A4860039E3ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 944DD2E41DF4A4860039E3ED /* LaunchScreen.storyboard */; };
 		944DD2F21DF552E20039E3ED /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944DD2F11DF552E20039E3ED /* ConversionViewController.swift */; };
+		94526A321DFA7F0C00092ABF /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94526A311DFA7F0C00092ABF /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		944DD2E51DF4A4860039E3ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		944DD2E71DF4A4860039E3ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		944DD2F11DF552E20039E3ED /* ConversionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
+		94526A311DFA7F0C00092ABF /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 			children = (
 				944DD2F11DF552E20039E3ED /* ConversionViewController.swift */,
 				942D49811DF93F2D00ED60BF /* MapViewController.swift */,
+				94526A311DFA7F0C00092ABF /* WebViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 				944DD2F21DF552E20039E3ED /* ConversionViewController.swift in Sources */,
 				942D49821DF93F2D00ED60BF /* MapViewController.swift in Sources */,
 				944DD2DC1DF4A4860039E3ED /* AppDelegate.swift in Sources */,
+				94526A321DFA7F0C00092ABF /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
